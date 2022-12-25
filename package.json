@@ -1,0 +1,17 @@
+{
+  "name": "07---simple-tailwind-starter---personal",
+  "version": "1.0.0",
+  "description": "Structure for Tailwind Projects Dec 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Sebastian Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
